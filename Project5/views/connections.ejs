@@ -1,0 +1,20 @@
+<%- include('./partials/header.ejs') %>
+    <!-- Page Information -->
+    <div id="connectionsPageText" class="font">
+        <% if(connections.length) { %>
+        <ul>
+            <% topics.forEach(topic => { %>
+                <li id="listHeadersConnections"><%= topic %></li>
+                <ul>
+                    <% for(let connection of getNamesByTopic(topic, connections)) { %>
+                        <li id="listElemConnections"><a href="/connection/<%= connection._id.toString() %>"><%= connection.name %></a></li>
+                    <% } %>
+                </ul>
+            <% }) %>
+        </ul>
+        <% } else { %>
+            There are no current connecitons.
+        <% } %>
+    </div>
+    <div id="footerPlaceHolder"></div>
+<%- include('./partials/footer.ejs') %>

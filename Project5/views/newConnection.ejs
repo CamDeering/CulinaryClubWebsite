@@ -1,0 +1,32 @@
+<%- include('./partials/header.ejs') %>
+    <!-- Page Information -->
+    <div id="newConnPageText" class="font">
+        <form action = 'connections' method = 'POST'>
+            <label for="topic">Topic:</label>
+            <input type="text" id="topic" name="topic" value="Topic" required><br>
+
+            <label for="name">Title:</label>
+            <input type="text" id="name" name="name" value="Title" required><br>
+
+            <label for="details">Details:</label>
+            <input type="text" id="details" name="details" value="Description" required><br>
+
+            <label for="location">Where:</label>
+            <input type="text" id="location" name="location" value="Location" required><br>
+
+            <label for="date">When:</label>
+            <input type="date" id="date" name="date" required><br>
+
+            <label for="startTime">Start:</label>
+            <input type="time" id="startTime" name="startTime" required><br>
+
+            <label for="endTime">End:</label>
+            <input type="time" id="endTime" name="endTime" required><br>
+
+            <label for="imageURL">Image URL:</label>
+            <input type="text" id="imageURL" name="imageURL" value="" required><br>
+
+            <button id="createButton">Update</button><br>
+        </form>
+    </div>
+<%- include('./partials/footer.ejs') %>

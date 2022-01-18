@@ -1,0 +1,109 @@
+[{
+  "_id": {
+    "$oid": "6193f3602c9d42d2f0386f36"
+  },
+  "name": "Weekly Meeting 1",
+  "topic": "Weekly Meeting",
+  "details": "The Culinary Clubs weekly meeting to discuss events and fundraisers.",
+  "location": "UNCC",
+  "date": {
+    "$date": "2021-11-16T00:00:00Z"
+  },
+  "startTime": "15:00",
+  "endTime": "16:00",
+  "imageURL": "/images/logo.jfif",
+  "hostName": {
+    "$oid": "6193e1bd227ff8bd4dd7cdad"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6193f3a32c9d42d2f0386f43"
+  },
+  "name": "Weekly Meeting 2",
+  "topic": "Weekly Meeting",
+  "details": "The Culinary Clubs weekly meeting to discuss events and fundraisers.",
+  "location": "UNCC",
+  "date": {
+    "$date": "2021-11-23T00:00:00Z"
+  },
+  "startTime": "15:00",
+  "endTime": "16:00",
+  "imageURL": "/images/logo.jfif",
+  "hostName": {
+    "$oid": "6193e1bd227ff8bd4dd7cdad"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6193f3c82c9d42d2f0386f46"
+  },
+  "name": "Weekly Meeting 3",
+  "topic": "Weekly Meeting",
+  "details": "The Culinary Clubs weekly meeting to discuss events and fundraisers.",
+  "location": "UNCC",
+  "date": {
+    "$date": "2021-11-30T00:00:00Z"
+  },
+  "startTime": "15:00",
+  "endTime": "16:00",
+  "imageURL": "/images/logo.jfif",
+  "hostName": {
+    "$oid": "6193e1bd227ff8bd4dd7cdad"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6193f4082c9d42d2f0386f4e"
+  },
+  "name": "Baked Dessert Contest",
+  "topic": "Cooking Contests",
+  "details": "A cooking contest to see who can make the best baked dessert.",
+  "location": "UNCC",
+  "date": {
+    "$date": "2021-11-24T00:00:00Z"
+  },
+  "startTime": "17:00",
+  "endTime": "19:00",
+  "imageURL": "/images/cookie.jfif",
+  "hostName": {
+    "$oid": "6193e0f7227ff8bd4dd7cda7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6193f4352c9d42d2f0386f54"
+  },
+  "name": "Steak Off!",
+  "topic": "Cooking Contests",
+  "details": "A cooking contest to see who can make the best steak.",
+  "location": "UNCC",
+  "date": {
+    "$date": "2021-11-19T00:00:00Z"
+  },
+  "startTime": "17:00",
+  "endTime": "19:00",
+  "imageURL": "/images/steak.jfif",
+  "hostName": {
+    "$oid": "6193e0f7227ff8bd4dd7cda7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6193f4682c9d42d2f0386f57"
+  },
+  "name": "Cheesecake Baking Contest",
+  "topic": "Cooking Contests",
+  "details": "A cooking contest to see who can make the best cheesecake.",
+  "location": "UNCC",
+  "date": {
+    "$date": "2021-12-03T00:00:00Z"
+  },
+  "startTime": "17:00",
+  "endTime": "19:00",
+  "imageURL": "/images/cheesecake.jfif",
+  "hostName": {
+    "$oid": "6193e0f7227ff8bd4dd7cda7"
+  },
+  "__v": 0
+}]

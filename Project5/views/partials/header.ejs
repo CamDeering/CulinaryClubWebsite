@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<html lang="en">
+    <body>
+        <!-- Header Menu of the Page -->
+        <header>
+            <!-- Logo -->
+            <div id="logo">
+                <a href="/"><img src="/images/logo.jfif"></a>
+                <p1 id="clubName">UNCC Culinary Club</p1>
+            </div>    
+            <!-- User Specific Navigation -->
+            <nav>
+                <ul id="userSpecificNav" class="font">
+                    <% if(!user){ %>
+                        <li id="userNavElement" class="noRightBorder"><a href="/users/new">Sign Up</a></li>
+                        <li id="userNavElement"><a href="/users/login">Login</a></li>
+                    <% } else { %>
+                        <li id="userNavElement"><a href="/users/logout">Logout</a></li>
+                        <li id="userNavElement"><a href="/users/profile">Profile</a></li>
+                        <li id="userNavElement"><a href="/connection/newConnection">Start a New Connection</a></li>
+                    <% } %>
+                </ul>
+            </nav>
+            <!-- General Site Navigation -->
+            <nav>
+                <ul id="genSiteNav" class="font">
+                    <li id="genNavElement"><a href="/connection/connections">Connections</a></li>
+                </ul>
+            </nav> 
+        </header>
+        <% if(errorMessages.length > 0) {%>
+            <% errorMessages.forEach(message=>{%>
+                <div class='error'>
+                    <%=message%>
+                </div>
+                <%});%>
+                    <%}%>
+        
+                        <% if(successMessages.length > 0) {%>
+        
+                            <% successMessages.forEach(message=>{%>
+                                <div class='success'>
+                                    <%=message%>
+                                </div>
+                                <%});%>
+                                    <%}%>

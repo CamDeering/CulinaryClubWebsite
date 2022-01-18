@@ -1,0 +1,393 @@
+/* Logo */
+#logo img{
+    width: 9%;
+    height: 9%;
+    float: left;
+    margin-left: 5%;
+    margin-top: .5%;
+}
+
+/* Club Name */
+#clubName {
+    color: white;
+    font-size: 72pt;
+    float: left;
+    padding-left: 7%;
+    padding-top: 2.7%;
+    margin: 0;
+}
+
+/* Discord Logo */
+#discord {
+    width: 2.5%;
+    height: 2.5%;
+    float: right;
+    margin-right: 2.5%;
+}
+
+/* Header */
+header {
+    background-color: rgb(17, 17, 17);
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(17, 17, 17);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+}
+
+/* Footer Place Holder */
+#footerPlaceHolder {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+}
+
+/* User Specific Navigation */
+#userSpecificNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* User Specific Navigation Element */
+#userNavElement {
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 2%;
+    float: right;
+    font-size: 16pt;
+    padding-right: 2%;
+    border-right: 2px solid rgb(3, 83, 3);
+}
+
+/* User Specific Navigation Element Links */
+#userNavElement a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(167, 166, 166);
+}
+
+/* Hover Over User Specific Navigation Element Links */
+#userNavElement a:hover {
+    color: white;
+}
+
+/* No Right Border on User Specific Navigation Element Sign Up */
+#userNavElement.noRightBorder {
+    border-right: none;
+}
+
+/* General Site Navigation */
+#genSiteNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* General Site Navigation Element */
+#genNavElement {
+    margin-top: 7.5%;
+    padding-left: 4.5%;
+    font-size: 16pt;
+    border-top: 2px solid rgb(3, 83, 3);
+}
+
+/* General Site Navigation Element Links */
+#genNavElement a {
+    display: block;
+    text-align: left;
+    padding: 12px;
+    text-decoration: none;
+    color: rgb(167, 166, 166);
+}
+
+/* Hover Over General Site Navigation Element Links */
+#genNavElement a:hover {
+    color: white;
+}
+
+/* General Site Navigation Footer */
+#genSiteNavFooter {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(17, 17, 17);
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0%;
+}
+
+/* General Site Navigation Element for Footer */
+#genNavElementFooter {
+    padding-left: 1.5%;
+    font-size: 16pt;
+}
+
+/* General Site Navigation Element Links for Footer */
+#genNavElementFooter a {
+    display: block;
+    font-size: 18pt;
+    padding: 12px;
+    text-decoration: none;
+    color: rgb(167, 166, 166);
+    float: left;
+}
+
+/* Hover Over General Site Navigation Element Links for Footer*/
+#genNavElementFooter a:hover {
+    color: white;
+}
+
+/* Site-wide Font */
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Home Page Text */
+#homePageText {
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+
+
+/* Connections Page Text */
+#connectionsPageText {
+    font-size: 24pt;
+    padding-top: 1%;
+    padding-left: 15%;
+}
+
+/* Connections Page Text UL*/
+#connectionsPageText ul{
+    list-style-type: none;
+}
+
+/* Connections Page Text UL LI*/
+#listElemConnections {
+    list-style-type: none;
+    font-size: 18pt;
+    padding: 10px;
+    font-weight: normal;
+}
+
+/* Connections Page Text headers for lists*/
+#listHeadersConnections {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+/* Connections Page Text UL LI Text*/
+#listElemConnections a{
+    text-decoration: none;
+    color:black;
+}
+
+/* Connections Page Text UL LI Text hover*/
+#listElemConnections a:hover{
+    text-decoration: none;
+    color:rgb(3, 83, 3);
+}
+
+
+
+
+/* Connection Page Text */
+#connPageText {
+    padding-top: 1%;
+    text-align: center;
+    font-size: 18pt;
+}
+
+/* Connection Page Event Title Text */
+#eventTitle {
+    font-size: 24pt;
+    padding-top: 1%;
+    font-weight: bold;
+}
+
+/* Connection Page Event Details Title Text */
+#eventDetailsTitle {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+/* Connection Page Update Button */
+#updateButton {
+    background-color: rgb(3, 83, 3);
+    color: rgb(0, 0, 0);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+/* Connection Page Update Button Hover */
+#updateButton:hover {
+    background-color: rgb(12, 165, 12);
+    cursor: pointer;
+}
+
+/* Connection Page Delete Button */
+#deleteButton {
+    background-color: rgb(3, 83, 3);
+    color: rgb(0, 0, 0);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+/* Connection Page Delete Button Hover */
+#deleteButton:hover {
+    background-color: rgb(12, 165, 12);
+    cursor: pointer;
+}
+
+
+
+
+/* New Connection Page Text */
+#newConnPageText {
+    padding-top: 3%;
+    font-size: 18pt;
+    padding-left: 30%;
+}
+
+/* New Connection Page Event Topic Text Box*/
+input[type=text]#topic {
+    width: 33%;
+    padding: 12px 20px;
+    margin: 8px 150px;
+    box-sizing: border-box;
+}
+
+/* New Connection Page New Event Title Text Box*/
+input[type=text]#name {
+    width: 33%;
+    padding: 12px 20px;
+    margin: 8px 160px;
+    box-sizing: border-box;
+}
+
+/* New Connection Page Host Name Text Box*/
+input[type=text]#hostName {
+    width: 33%;
+    padding: 12px 20px;
+    margin: 8px 155px;
+    box-sizing: border-box;
+}
+
+/* New Connection Page Event Details Text Box*/
+input[type=text]#details {
+    width: 33%;
+    padding: 12px 20px;
+    margin: 8px 130px;
+    box-sizing: border-box;
+}
+
+/* New Connection Page Event Location Text Box*/
+input[type=text]#location {
+    width: 33%;
+    padding: 12px 20px;
+    margin: 8px 132px;
+    box-sizing: border-box;
+}
+
+/* New Connection Page Date Boxes */
+input[type=date] {
+    padding: 12px 20px;
+    margin: 8px 140px;
+    box-sizing: border-box;
+}
+
+/* New Connection Page Event Start Time Box */
+input[type=time]#startTime {
+    padding: 12px 20px;
+    margin: 8px 152px;
+    box-sizing: border-box;
+}
+
+/* New Connection Page Event End Time Box */
+input[type=time]#endTime {
+    padding: 12px 20px;
+    margin: 8px 160px;
+    box-sizing: border-box;
+}
+
+/* New Connection Page Image URL Text Box */
+input[type=text]#imageURL {
+    width: 33%;
+    padding: 12px 20px;
+    margin: 8px 80px;
+    box-sizing: border-box;
+}
+
+/* New Connection Page Submit Button */
+#createButton {
+    background-color: rgb(3, 83, 3);
+    color: rgb(0, 0, 0);
+    margin-left: 39.5%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+/* New Connection Page Submit Button Hover */
+#createButton:hover {
+    background-color: rgb(12, 165, 12);
+}
+
+/* Logo for connection */
+#connectionLogo img{
+    width: 9%;
+    height: 9%;
+    float: center;
+}
+
+.success {
+    background: rgba(108, 192, 112, 0.7);
+    color: #fff;
+    width: 70%;
+    text-align: center;
+    padding: 10px 10px;
+}
+  
+.error {
+    background: rgba(255, 102, 51, 0.7);
+    color: #fff;
+    width: 70%;
+    text-align: center;
+    padding: 10px 10px;
+}
